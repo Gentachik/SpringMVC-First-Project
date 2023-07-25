@@ -1,6 +1,7 @@
 # SpringMVC-First-Project
-My first spring MVC project. 
-# Here you can: 
-* Create a person. 
-* Update person's information. 
-* Delete person from the data.
+Simple wev service where you can manage users accounts.
+# Pages: 
+* Page with a list of all users.
+* Page where you can add a new user.
+* Page for viewing information about the user.
+* Page for updating user information.
