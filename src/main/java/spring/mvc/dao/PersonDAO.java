@@ -26,7 +26,7 @@ public class PersonDAO {
                 stream().findAny().orElse(null);
     }
     public void save(Person person) {
-        jdbcTemplate.update("INSERT INTO PERSON values (1,?,?,?)", person.getName(),person.getAge(),person.getEmail());
+        jdbcTemplate.update("INSERT INTO PERSON(name,age,email) values (?,?,?)", person.getName(),person.getAge(),person.getEmail());
     }
     public void update(int id, Person updatedPerson) {
         jdbcTemplate.update("UPDATE PERSON name=?, age=?, email=? WHERE ID=?",updatedPerson.getName(),updatedPerson.getAge(),updatedPerson.getEmail(),id);

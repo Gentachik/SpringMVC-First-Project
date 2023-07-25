@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a132c34a-639d-4d41-b155-31ee0dec1618" name="Changes" comment="Adding a database property file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/mvc/controllers/BatchController.java" afterDir="false" />
+    <list default="true" id="a132c34a-639d-4d41-b155-31ee0dec1618" name="Changes" comment="Adding a possibility to update database with batch">
       <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/mvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/mvc/dao/PersonDAO.java" afterDir="false" />
     </list>
@@ -187,7 +185,7 @@
       <workItem from="1689450692976" duration="657000" />
       <workItem from="1690238839142" duration="481000" />
       <workItem from="1690282158549" duration="2871000" />
-      <workItem from="1690285564046" duration="2917000" />
+      <workItem from="1690285564046" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="Starting a project">
       <created>1689163715489</created>
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690286197656</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding a possibility to update database with batch">
+      <created>1690288578139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690288578139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +236,7 @@
     <MESSAGE value="Starting a project" />
     <MESSAGE value="Finishing the project" />
     <MESSAGE value="Adding a database property file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a database property file" />
+    <MESSAGE value="Adding a possibility to update database with batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a possibility to update database with batch" />
   </component>
 </project>
